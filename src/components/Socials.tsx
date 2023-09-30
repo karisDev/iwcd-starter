@@ -1,11 +1,10 @@
-import styled from "styled-components";
+import {default as Styled} from "../styles"
 
 export const Socials = () => {
   return (
-    <SocialContainer>Socials</SocialContainer>
+    <div>
+      <Styled.text3>test</Styled.text3>
+      Socials
+    </div>
   )
 }
-
-const SocialContainer = styled.div`
-  color: red;
-`
